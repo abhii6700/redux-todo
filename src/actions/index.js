@@ -1,4 +1,4 @@
-export const addtodo = () => ({
+export const addtodo = (payload) => ({
     type: 'ADD_TODO',
     payload,
     id: Math.random()
