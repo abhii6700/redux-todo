@@ -4,7 +4,7 @@ export const addtodo = (payload) => ({
     id: Math.random()
 })
 
-export const deletetodo = () => ({
+export const deletetodo = (id) => ({
     type: 'DELETE_TODO',
-    id: Math.random()
+    id,
 })
